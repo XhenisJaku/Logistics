@@ -1,0 +1,21 @@
+set Resources:= budget programmers specialized;
+set Projects:= 1 2 3 4 5 6 7 ;
+
+param Profit:=
+1 650000 
+2 550000
+3 600000
+4 450000
+5 375000
+6 525000
+7 750000;
+
+param Availabilities:=
+budget 950000
+programmers 20
+specialized 1;
+
+param Requirement: 1 2 3 4 5 6 7 :=
+budget 250000 175000 300000 150000 145000 160000 325000
+programmers 7 6 9 5 6 4 8 
+specialized 0 1 0 0 0 1 0; 

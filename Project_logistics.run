@@ -1,0 +1,8 @@
+reset;
+model Project_logistics.mod;
+data Project_logistics.dat;
+option solver cplexamp;
+solve;
+display Selection;
+
+
